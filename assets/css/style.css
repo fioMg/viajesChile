@@ -1,9 +1,22 @@
+/* General */
 body{
     font-family: "Raleway", sans-serif;
     background-color: black;
     color: white;
 }
+/* Títulos */
+h4{
+    font-weight: 500;
+}
+h5{
+    font-weight: 500;
+}
 /* Navbar */
 .bgcolor.scrolled{
-    background-color: black;
+    background-color: #0dcaf0;
+}
+/* Footer */
+footer a{
+    color: white;
+    text-decoration: none;
 }
