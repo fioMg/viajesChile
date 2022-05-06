@@ -1,3 +1,15 @@
+// Smootscrooll
+$(document).ready(function(){
+    $("a").click(function(){
+        var gato = this.hash
+        $("html, body").animate(
+            {
+                scrollTop: $(gato).offset().top - 58
+            },
+            800 
+            )
+        });
+    });   
 // Cambio de color NavBar
 $(window).scroll(function(){
     $("nav").toggleClass("scrolled",$(this).scrollTop()>50);
