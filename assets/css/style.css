@@ -4,6 +4,11 @@ body{
     background-color: black;
     color: white;
 }
+
+/* Navbar */
+.bgcolor.scrolled{
+    background-color: #0dcaf0;
+}
 /* Títulos */
 h4{
     font-weight: 500;
@@ -11,10 +16,11 @@ h4{
 h5{
     font-weight: 500;
 }
-/* Navbar */
-.bgcolor.scrolled{
-    background-color: #0dcaf0;
+/* Destacados */
+.card img{
+    height: 120px;
 }
+
 /* Footer */
 footer a{
     color: white;
